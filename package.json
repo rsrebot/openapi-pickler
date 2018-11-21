@@ -4,8 +4,8 @@
   "description": "Utility to generate Gherkin specifications from OpenAPI tests",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node index.js https://petstore.swagger.io/v2/swagger.json"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/tj800x/openapi-pickler#readme",
   "dependencies": {
-    "file-url": "^2.0.2",
     "resttestsgenerator": "github:tj800x/resttestsgenerator"
   }
 }
