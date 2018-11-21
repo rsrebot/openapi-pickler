@@ -1,0 +1,27 @@
+{
+  "name": "openapi-pickler",
+  "version": "0.0.5",
+  "description": "Utility to generate Gherkin specifications from OpenAPI tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tj800x/openapi-pickler.git"
+  },
+  "keywords": [
+    "OpenAPI",
+    "Gherkin"
+  ],
+  "author": "tj800x@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tj800x/openapi-pickler/issues"
+  },
+  "homepage": "https://github.com/tj800x/openapi-pickler#readme",
+  "dependencies": {
+    "file-url": "^2.0.2",
+    "resttestsgenerator": "github:tj800x/resttestsgenerator"
+  }
+}
