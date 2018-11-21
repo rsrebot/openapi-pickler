@@ -16,6 +16,5 @@ $ npm start https://petstore.swagger.io/v2/swagger.json
 ```bash
 $ npm start simpleapi.json
 ```
-
 Built on the github:gretard/resttestsgenerator library.
 
