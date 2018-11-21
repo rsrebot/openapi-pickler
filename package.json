@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/tj800x/openapi-pickler#readme",
   "dependencies": {
+    "file-url": "^2.0.2",
     "resttestsgenerator": "github:tj800x/resttestsgenerator"
   }
 }
